@@ -44,7 +44,7 @@ body {
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: #535151;
   color: white;
 }
 
@@ -54,7 +54,7 @@ body {
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #65e665;
   color: white;
 }
 
@@ -86,10 +86,9 @@ button {
   justify-content: space-around;
   align-items: center;
   margin: 20px;
+  /* background-color: #77dd77; */
 }
 
-.section {
-}
 
 textarea {
   height: 100px;
@@ -98,3 +97,21 @@ textarea {
 .container h2 {
   font-size: 20px;
 }
+
+.time {
+  /* background-color: rgb(224, 28, 28); */
+  width: 200px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.red {
+  background-color: red;
+}
+
+
+
+
+

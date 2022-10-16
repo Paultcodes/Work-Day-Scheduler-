@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="/work-day/style/style.css">
+    <link rel="stylesheet" href="/work-day/style/style.css" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -19,7 +19,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./work-day/script/script.js" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -28,60 +28,60 @@
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
-      <h2>Current Time &amp; Date: <br /> <span id="time-display">00:00:00</span></h2>
+      <h1>
+        Current Time &amp; Date: <br />
+        <span id="time-display">00:00:00</span>
+      </h1>
     </header>
-    <div class="container">
-      <div class="nine box">
-        <h2 class="section">9am</h2>
-        <textarea name="" id="" cols="30" rows="10" class="section"></textarea>
-        <button class="section">Save</button>
-      </div>
-      <div class="ten box">
-        <h2 class="section">10am</h2>
-        <textarea name="" id="" cols="30" rows="10" class="section"></textarea>
-        <button class="section">Save</button>
-      </div>
-      <div class="eleven box">
-        <h2 class="section">11am</h2>
-        <textarea name="" id="" cols="30" rows="10" class="section"></textarea>
-        <button class="section">Save</button>
-      </div>
-      <div class="twelve box">
-        <h2 class="section">12pm</h2>
-        <textarea name="" id="" cols="30" rows="10" class="section"></textarea>
-        <button class="section">Save</button>
-      </div>
-      <div class="one box">
-        <h2 class="section">1pm</h2>
-        <textarea name="" id="" cols="30" rows="10" class="section"></textarea>
-        <button class="section">Save</button>
-      </div>
-      <div class="two box">
-        <h2 class="section">2pm</h2>
-        <textarea name="" id="" cols="30" rows="10" class="section"></textarea>
-        <button class="section">Save</button>
-      </div>
-      <div class="three box">
-        <h2 class="section">3pm</h2>
-        <textarea name="" id="" cols="30" rows="10" class="section"></textarea>
-        <button class="section">Save</button>
-      </div>
-      <div class="four box">
-        <h2 class="section">4pm</h2>
-        <textarea name="" id="" cols="30" rows="10" class="section"></textarea>
-        <button class="section">Save</button>
-      </div>
-      <div class="five box">
-        <h2 class="section">5pm</h2>
-        <textarea name="" id="" cols="30" rows="10" class="section"></textarea>
-        <button class="section">Save</button>
-      </div>
-  
-    </div>
 
+    <div id="9" class="nine box">
+      <h2 class="nine-time section time">9 am</h2>
+      <textarea name="" id="9" cols="30" rows="10" class="section"></textarea>
+      <button class="section">Save</button>
+    </div>
+    <div id="10" class="ten box">
+      <h2 class="ten-time section time">10 am</h2>
+      <textarea name="" id="10" cols="30" rows="10" class="section"></textarea>
+      <button class="section">Save</button>
+    </div>
+    <div id="11" class="eleven box">
+      <h2 class="eleven-time section time">11 am</h2>
+      <textarea name="" id="11" cols="30" rows="10" class="section"></textarea>
+      <button class="section">Save</button>
+    </div>
+    <div id="12" class="twelve box">
+      <h2 class="twelve-time section time">12 pm</h2>
+      <textarea name="" id="12" cols="30" rows="10" class="section"></textarea>
+      <button class="section">Save</button>
+    </div>
+    <div id="13" class="one box">
+      <h2 class="one-time section time">1 pm</h2>
+      <textarea name="" id="13" cols="30" rows="10" class="section"></textarea>
+      <button class="section">Save</button>
+    </div>
+    <div id="14" class="two box">
+      <h2 class="two-time section time">2 pm</h2>
+      <textarea name="" id="14" cols="30" rows="10" class="section"></textarea>
+      <button class="section">Save</button>
+    </div>
+    <div id="15" class="15 box">
+      <h2 class="three-time section time">3 pm</h2>
+      <textarea name="" id="15" cols="30" rows="10" class="section"></textarea>
+      <button class="section">Save</button>
+    </div>
+    <div id="16" class="four box">
+      <h2 class="four-time section time">4 pm</h2>
+      <textarea name="" id="16" cols="30" rows="10" class="section"></textarea>
+      <button class="section">Save</button>
+    </div>
+    <div id="17" class="five box">
+      <h2 class="five-time section time">5 pm</h2>
+      <textarea name="" id="17" cols="30" rows="10" class="section"></textarea>
+      <button class="section">Save</button>
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <script src="/work-day/script/script.js"></script>
+    <script src="./work-day/script/script.js"></script>
   </body>
 </html>
