@@ -4,6 +4,10 @@ body {
   line-height: 1;
 }
 
+main {
+  background-color: #06aed5;
+}
+
 /* textarea {
   background: transparent;
   border: none;
@@ -44,7 +48,7 @@ body {
 }
 
 .past {
-  background-color: #535151;
+  background-color: #7e7b7b;
   color: white;
 }
 

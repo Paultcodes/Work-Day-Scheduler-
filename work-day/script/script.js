@@ -1,6 +1,7 @@
 var timeDisplay = $("#time-display");
 var today = moment();
 var allId = document.querySelectorAll("div");
+var allButtons = document.getElementsByClassName("save");
 
 function displayTime() {
   var rightNow = moment().format("MMM DD, YYYY [at] hh:mm:ss a");
@@ -27,3 +28,10 @@ function changeColor() {
 }
 
 changeColor();
+
+for (let i = 0; i < allButtons.length; i++) {
+  allButtons[i].addEventListener("click", function () {
+    text = allButtons[i].previousElementSibling.value;
+    console.log(text);
+  });
+}
